@@ -7,3 +7,8 @@ Workspace for Spring Security
 - **Spring Boot Version**: 2.4.1
 - **Spring Security Version**: 5.4.2
 - **Description**: Spring Security basic login App.
+
+### App2: [spring-security-custom-filter](https://github.com/bs-public/ws-spring-security/tree/main/spring-security-custom-filter) 
+- **Spring Boot Version**: 2.4.1
+- **Spring Security Version**: 5.4.2
+- **Description**: Spring Security custom filter App.
