@@ -17,14 +17,14 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Value("${app.user.name}")
-    private String name;
+  @Value("${app.user.name}")
+  private String name;
 
-    @Value("${app.user.password}")
-    private String password;
+  @Value("${app.user.password}")
+  private String password;
 
-    @Value("${app.user.roles}")
-    private String roles;
+  @Value("${app.user.roles}")
+  private String roles;
 
   //@formatter:off
   @Override
@@ -60,9 +60,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   }
  //@formatter:on
 
-    @Bean
-    public BCryptPasswordEncoder encoder() {
-	return new BCryptPasswordEncoder();
-    }
+  @Bean
+  public BCryptPasswordEncoder encoder() {
+    return new BCryptPasswordEncoder();
+  }
 
 }
