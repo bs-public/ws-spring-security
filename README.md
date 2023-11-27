@@ -12,3 +12,8 @@ Workspace for Spring Security
 - **Spring Boot Version**: 2.4.1
 - **Spring Security Version**: 5.4.2
 - **Description**: Spring Security custom filter App.
+
+### App3: [spring-security-mysql](https://github.com/bs-public/ws-spring-security/tree/main/spring-security-mysql) 
+- **Spring Boot Version**: 2.4.1
+- **Spring Security Version**: 5.4.2
+- **Description**: Spring Security basic login app with mysql, flyway, lombok, mapstruct, docker.
